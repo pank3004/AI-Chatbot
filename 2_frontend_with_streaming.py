@@ -40,7 +40,6 @@ if user_input:
     with st.chat_message('user'): 
         st.text(user_input)
 
-    # first add the message to message_history
     with st.chat_message('assistant'):
         ai_message = st.write_stream(
             message_chunk.content for message_chunk, metadata in chatbot.stream(

@@ -39,7 +39,8 @@ chatbot=graph.compile(checkpointer=cheakpointer)
 
 # print(response['messages'][-1].content)
 
-
+# state=chatbot.get_state(config=CONFIG)
+# print(state.values['messages'])
 
 # streaming: 
 

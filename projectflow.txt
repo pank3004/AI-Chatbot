@@ -1,0 +1,37 @@
+STEPS TO ADD RESUME CHAT FEATURE IN CHATBOT: 
+
+-> add a sidebar with title + A Start Chat Button + A title named 'My Conversations' [Done]
+
+-> generate dynamic thread Id and add it to the session [Done]
+
+-> Display the thread id in sidebar [Done]
+
+-> On Click of new chat open a new chat window [Done]
+
+generate a new thread_id
+
+save it in session
+
+reset message history
+
+-> create a list to store all thread_ids [Done]
+
+-> Load all the thread ids in the sidebar [Done]
+
+-> convert the side bar text to clickable buttons [Done]
+
+-> on click of a particular thread id load that particular conversation
+
+extract the thread id and fetch all the messages from that thread
+
+fill the messages in message_history
+
+---------------------------------------------------------------------------------------------
+HOW TO CONNECT WITH SQLITE DATA BASES: 
+
+    1. create new frontend and backend files
+    2. install https://pypi.org/project/langgraph-checkpoint-sqlite/
+    3. implement database in backend
+    4. chat in multiple threads
+    5. install and visualize
+    6. integrate to frontend
